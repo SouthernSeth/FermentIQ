@@ -12,9 +12,11 @@ To use this software, you will need a web server, which can be hosted on a paid 
 
 # Responsive
 FermentIQ is designed to work seamlessly across all devices—whether you're on desktop, tablet, or mobile. The app automatically adjusts to fit your screen, ensuring a comfortable and intuitive experience no matter where you track your beer's fermentation.
+<div style="display: flex; justify-content: center;">
 <img src="FermentIQ_Demo_Images/mobile_landing_page.jpg" alt="Logo" width="300"/>
 <img src="FermentIQ_Demo_Images/responsive_create_brew.jpg" alt="Logo" width="300"/>
 <img src="FermentIQ_Demo_Images/responsive_nav_bar.jpg" alt="Logo" width="300"/>
+</div>
 
 
 # Simplicity
