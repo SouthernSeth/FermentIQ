@@ -10,6 +10,10 @@ This software is offered under CC BY-NC-ND 4.0, please refer to the license befo
 To use this software, you will need a web server, which can be hosted on a paid web hosting service, a home server, or even a Raspberry Pi. The server must support both Python and PHP for the back-end functionality. Simply upload the FermentIQ root folder to your web server, and access the application via your browser (e.g., http://localhost:80/FermentIQ/). Detailed instructions for using the application, including configuring your iSpindel, can be found on the "Help" page. For other devices, please consult the respective documentation.
 
 
+# Responsive
+FermentIQ is designed to work seamlessly across all devices—whether you're on desktop, tablet, or mobile. The app automatically adjusts to fit your screen, ensuring a comfortable and intuitive experience no matter where you track your beer's fermentation.
+
+
 # Simplicity
 Setting up is as easy as dragging and dropping the root files onto your web server, then starting the TCP server with the intuitive user interface provided.
 ![Landing Page Image](FermentIQ_Demo_Images/landing_page.png)
