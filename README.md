@@ -37,7 +37,7 @@ FermentIQ is designed to work seamlessly across all devices—whether you're on 
 Setting up is as easy as dragging and dropping the root files onto your web server, then starting the TCP server with the intuitive user interface provided.
 
 <p align="center">
-  <img src="FermentIQ_Demo_Images/landing_page.png" alt="Landing Page" width="400"/>
+  <img src="FermentIQ_Demo_Images/landing_page.png" alt="Landing Page" width="700"/>
 </p>
 
 ---
@@ -47,7 +47,7 @@ Setting up is as easy as dragging and dropping the root files onto your web serv
 Easily track multiple brews and connect multiple devices simultaneously. The system supports up to **100 concurrent connection requests**, ensuring seamless performance even with high usage.
 
 <p align="center">
-  <img src="FermentIQ_Demo_Images/view_active_brews.png" alt="View Active Brews" width="400"/>
+  <img src="FermentIQ_Demo_Images/view_active_brews.png" alt="View Active Brews" width="700"/>
 </p>
 
 ---
@@ -57,7 +57,7 @@ Easily track multiple brews and connect multiple devices simultaneously. The sys
 Set up your brews and start tracking your fermentation effortlessly. No API keys or complex configurations are required—just upload the files to your web server and access the app through your browser for a quick and straightforward setup. **Get started in under 15 minutes!**
 
 <p align="center">
-  <img src="FermentIQ_Demo_Images/create_brew_page.png" alt="Create Brew Page" width="400"/>
+  <img src="FermentIQ_Demo_Images/create_brew_page.png" alt="Create Brew Page" width="700"/>
 </p>
 
 ---
