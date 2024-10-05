@@ -1,5 +1,9 @@
 # FermentIQ
 
+<p align="center">
+  A download will be available soon...
+</p>
+
 A robust and user-friendly application for tracking beer fermentation, featuring both front-end and back-end components. The back-end is powered by **Python** and **PHP**, while the front-end leverages **HTML**, **JavaScript**, and **CSS** for a seamless user experience. Utilizing the **TCP protocol**, the application simplifies integration with devices like **iSpindel**, enabling easy data transmission to the server where the app is hosted. For setup instructions and system requirements, please refer to the **Installation** section.
 
 ---
