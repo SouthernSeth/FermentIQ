@@ -1,32 +1,51 @@
-# Download
-<br><br><p align="center">
-  <strong><span style="font-size: 20px; color: green;">A download will be available soon...</span></strong>
-</p><br></br>
-
 # FermentIQ
-A robust and user-friendly application for tracking beer fermentation, featuring both front-end and back-end components. The back-end is powered by **Python** and **PHP**, while the front-end leverages **HTML**, **JavaScript**, and **CSS** for a seamless user experience. Utilizing the **TCP protocol**, the application simplifies integration with devices like **iSpindel**, enabling easy data transmission to the server where the app is hosted. For setup instructions and system requirements, please refer to the **Installation** section.
+
+**FermentIQ** is a robust and user-friendly Python-based application designed for tracking beer fermentation. It seamlessly integrates a **web server** for an intuitive front-end experience and a **TCP server** to receive data from devices like **iSpindel**, enabling precise monitoring of your brewing process.
 
 ---
 
-## License
+## 📥 Download
 
-This software is offered under **CC BY-NC-ND 4.0**. Please refer to the license before redistributing or modifying this software.
+<p align="center">
+  <strong><span style="font-size: 20px; color: green;">A download will be available soon...</span></strong>
+</p>
 
 ---
 
-## Pre-requisites & Installation
+## Table of Contents
 
-To use this software, you will need a web server, which can be hosted on a paid web hosting service, a home server, or even a Raspberry Pi. The server must support both **Python** and **PHP** for the back-end functionality. Simply upload the **FermentIQ** root folder to your web server, and access the application via your browser (e.g., `http://localhost:80/FermentIQ/`). 
+- [Introduction](#introduction)
+- [Features](#features)
+  - [🌐 Responsive Design](#-responsive-design)
+  - [⚙️ Simplicity](#-simplicity)
+  - [📈 Scalability](#-scalability)
+  - [🖥️ Intuitive Interface](#-intuitive-interface)
+- [Installation](#installation)
+  - [🛠️ Pre-requisites](#-pre-requisites)
+  - [🚀 Setup Instructions](#-setup-instructions)
+- [Usage](#usage)
+  - [📊 Web Server](#-web-server)
+  - [📡 TCP Server](#-tcp-server)
+- [License](#license)
+- [Contributing](#contributing)
+- [Support](#support)
+- [Acknowledgements](#acknowledgements)
 
-Detailed instructions for using the application, including configuring your iSpindel, can be found on the **Help** page. For other devices, please consult their respective documentation.
+---
+
+## Introduction
+
+FermentIQ is a comprehensive solution for managing and monitoring beer fermentation. Built entirely in **Python**, FermentIQ offers a seamless blend of powerful back-end functionalities with a sleek front-end interface crafted using **HTML**, **JavaScript**, and **CSS**. By leveraging the **TCP protocol**, FermentIQ effortlessly integrates with fermentation monitoring devices like **iSpindel**, ensuring real-time data transmission and accurate fermentation tracking.
+
+Whether you're a homebrewer or a professional in the brewing industry, FermentIQ provides the tools you need to monitor your fermentation process with ease and precision.
 
 ---
 
 ## Features
 
-### Responsive Design
+### 🌐 Responsive Design
 
-FermentIQ is designed to work seamlessly across all devices—whether you're on desktop, tablet, or mobile. The app automatically adjusts to fit your screen, ensuring a comfortable and intuitive experience no matter where you track your beer's fermentation.
+FermentIQ is engineered to provide an optimal user experience across all devices. Whether you're accessing the application from a desktop, tablet, or smartphone, the interface adjusts seamlessly to fit your screen, ensuring easy navigation and monitoring of your beer fermentation process.
 
 <p align="center">
   <img src="FermentIQ_Demo_Images/mobile_landing_page.jpg" alt="Mobile Landing Page" width="250"/>
@@ -36,9 +55,9 @@ FermentIQ is designed to work seamlessly across all devices—whether you're on 
 
 ---
 
-### Simplicity
+### ⚙️ Simplicity
 
-Setting up is as easy as dragging and dropping the root files onto your web server, then starting the TCP server with the intuitive user interface provided.
+Setting up FermentIQ is straightforward and hassle-free. Simply **drag and drop** the FermentIQ root folder onto your Python-supported web server, and launch the TCP server using the provided intuitive user interface. FermentIQ is designed for quick deployment, allowing you to start monitoring your fermentation within minutes.
 
 <p align="center">
   <img src="FermentIQ_Demo_Images/landing_page.png" alt="Landing Page" width="700"/>
@@ -46,9 +65,9 @@ Setting up is as easy as dragging and dropping the root files onto your web serv
 
 ---
 
-### Scalability
+### 📈 Scalability
 
-Easily track multiple brews and connect multiple devices simultaneously. The system supports up to **100 concurrent connection requests**, ensuring seamless performance even with high usage.
+Designed to handle multiple brewing projects simultaneously, FermentIQ supports tracking of **multiple brews** and **connections from multiple devices** concurrently. Whether you're managing a single brew or overseeing a large-scale brewing operation, FermentIQ scales effortlessly to meet your needs.
 
 <p align="center">
   <img src="FermentIQ_Demo_Images/view_active_brews.png" alt="View Active Brews" width="700"/>
@@ -56,9 +75,9 @@ Easily track multiple brews and connect multiple devices simultaneously. The sys
 
 ---
 
-### Intuitive Interface
+### 🖥️ Intuitive Interface
 
-Set up your brews and start tracking your fermentation effortlessly. No API keys or complex configurations are required—just upload the files to your web server and access the app through your browser for a quick and straightforward setup. **Get started in under 15 minutes!**
+FermentIQ boasts an **intuitive and user-friendly interface**, making it easy to set up brews and monitor fermentation progress without the need for complex configurations or API integrations. Access the application through your browser, configure your brews, and start tracking with just a few clicks—**get started in under 15 minutes!**
 
 <p align="center">
   <img src="FermentIQ_Demo_Images/create_brew_page.png" alt="Create Brew Page" width="700"/>
@@ -66,12 +85,22 @@ Set up your brews and start tracking your fermentation effortlessly. No API keys
 
 ---
 
-### Conclusion
+## Installation
 
-FermentIQ is the ultimate solution for managing beer fermentation with ease, simplicity, and scalability. Whether you're a hobbyist or a professional brewer, FermentIQ provides everything you need to monitor your brewing process.
+### 🛠️ Pre-requisites
 
----
+To deploy FermentIQ, ensure you have the following:
 
-### How to Contribute
+- **Python 3.6+** installed on your server.
+- A **web server** capable of running Python applications. This can be a:
+  - **Home server**
+  - **Raspberry Pi**
+  - **Cloud-based server** (e.g., AWS, DigitalOcean)
+- **TCP port access** (default port: `55000`) to receive data from fermentation devices like iSpindel.
 
-Feel free to open issues or submit pull requests if you want to contribute to the project!
+### 🚀 Setup Instructions
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/FermentIQ.git
